@@ -3,7 +3,7 @@ package tamkdesuostatne.pornoFilm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pornoherec {
+public class pornoherec extends herec {
 
     String menoPriezvisko;
     String nick;
@@ -49,7 +49,7 @@ public class pornoherec {
         return dlzkaCiciny;
     }
 
-    public  double getDostrek() {
+    public double getDostrek() {
         return dostrek;
     }
 
@@ -68,7 +68,7 @@ public class pornoherec {
 
     public pornoherec(){
 
-
+        super("test","test");
 
     }
 

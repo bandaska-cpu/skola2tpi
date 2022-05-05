@@ -3,7 +3,7 @@ package tamkdesuostatne.pornoFilm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pornoherecka {
+public class pornoherecka extends herec {
 
     String menoPriezvisko;
     String nick;
@@ -12,7 +12,10 @@ public class pornoherecka {
     List<String> filmy = new ArrayList<>();
 
 
+
+
     public pornoherecka(){
+        super("test","TEST");
     }
 
     public   String getMenoPriezvisko() {
